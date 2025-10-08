@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page | Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white">
+    <div class="container mx-auto flex justify-between items-center p-5">
+      <h1 class="text-2xl font-bold">MyProduct</h1>
+      <nav class="space-x-4 hidden md:block">
+        <a href="#features" class="hover:text-yellow-300 transition">Fitur</a>
+        <a href="#testimoni" class="hover:text-yellow-300 transition">Testimoni</a>
+        <a href="#contact" class="hover:text-yellow-300 transition">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-20 text-center">
+    <div class="container mx-auto px-6 md:px-12">
+      <h2 class="text-4xl font-bold mb-4 text-blue-700">Solusi Digital Terbaik untuk Bisnis Anda</h2>
+      <p class="text-gray-600 mb-6 max-w-2xl mx-auto">
+        Bergabunglah dengan ribuan pengguna yang telah meningkatkan produktivitas dengan layanan kami.
+      </p>
+      <a href="#features" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+        Mulai Sekarang
+      </a>
+    </div>
+  </section>
+
+  <!-- Fitur Section -->
+  <section id="features" class="py-16 bg-white">
+    <div class="container mx-auto text-center px-4">
+      <h3 class="text-3xl font-bold mb-8 text-blue-700">Fitur Utama Kami</h3>
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="p-6 border rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-3">⚡ Cepat & Efisien</h4>
+          <p class="text-gray-600">Nikmati kecepatan tinggi dalam setiap proses bisnis Anda tanpa hambatan.</p>
+        </div>
+        <div class="p-6 border rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-3">🔒 Aman & Terpercaya</h4>
+          <p class="text-gray-600">Data Anda terenkripsi dengan keamanan tingkat tinggi dan privasi terjaga.</p>
+        </div>
+        <div class="p-6 border rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-3">💡 Mudah Digunakan</h4>
+          <p class="text-gray-600">Antarmuka yang intuitif memudahkan Anda untuk memulai tanpa pelatihan rumit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni Section -->
+  <section id="testimoni" class="bg-gray-50 py-16">
+    <div class="container mx-auto text-center px-4">
+      <h3 class="text-3xl font-bold mb-8 text-blue-700">Apa Kata Pengguna Kami</h3>
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-md transition">
+          <p class="italic text-gray-600 mb-4">"Layanan ini benar-benar membantu meningkatkan efisiensi tim kami!"</p>
+          <h5 class="font-semibold text-blue-700">– Andi, Startup Founder</h5>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-md transition">
+          <p class="italic text-gray-600 mb-4">"Sangat mudah digunakan, bahkan untuk pemula seperti saya."</p>
+          <h5 class="font-semibold text-blue-700">– Rina, Freelancer</h5>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-md transition">
+          <p class="italic text-gray-600 mb-4">"Desainnya clean dan fungsional. Pelayanan pelanggan juga cepat."</p>
+          <h5 class="font-semibold text-blue-700">– Danu, Pebisnis</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-blue-700 text-white py-6">
+    <div class="container mx-auto text-center space-y-3">
+      <p>© 2025 MyProduct. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="#" class="hover:text-yellow-300 transition">Instagram</a>
+        <a href="#" class="hover:text-yellow-300 transition">Facebook</a>
+        <a href="#" class="hover:text-yellow-300 transition">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
