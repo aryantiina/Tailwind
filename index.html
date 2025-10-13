@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Papyrus | Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            softBlue: '#A2D2FF',
+            softCream: '#FAF9F6',
+            softTeal: '#BDE0FE',
+            softNavy: '#023047',
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-softCream text-softNavy font-sans">
+
+  <!-- Header -->
+  <header class="bg-softBlue shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">📚 Papyrus</h1>
+      <nav class="space-x-6">
+        <a href="#home" class="hover:text-white transition">Home</a>
+        <a href="#features" class="hover:text-white transition">Fitur</a>
+        <a href="#testimoni" class="hover:text-white transition">Testimoni</a>
+        <a href="#footer" class="hover:text-white transition">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="flex flex-col md:flex-row items-center justify-center text-center md:text-left py-16 px-6 bg-gradient-to-r from-softTeal to-softBlue">
+    <div class="md:w-1/2 mb-6 md:mb-0">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Temukan Buku Favoritmu di Papyrus</h2>
+      <p class="text-lg mb-6 text-softNavy">Koleksi buku terbaik untuk menemani harimu — dari novel romantis hingga buku inspiratif.</p>
+      <a href="#features" class="bg-softNavy text-white px-6 py-3 rounded-lg hover:bg-softTeal hover:text-softNavy transition">Jelajahi Sekarang</a>
+    </div>
+    <div class="md:w-1/2 flex justify-center">
+      <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500" alt="Buku" class="rounded-2xl shadow-lg w-80 md:w-96">
+    </div>
+  </section>
+
+  <!-- Fitur Section -->
+  <section id="features" class="py-16 container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-10">Fitur Utama</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400" alt="Inspiratif" class="rounded-lg mb-4 mx-auto">
+        <h3 class="text-xl font-semibold mb-2">Koleksi Lengkap</h3>
+        <p>Ribuan buku dari berbagai genre — novel, motivasi, biografi, hingga buku anak-anak.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400" alt="Kualitas" class="rounded-lg mb-4 mx-auto">
+        <h3 class="text-xl font-semibold mb-2">Kualitas Terjamin</h3>
+        <p>Setiap buku dalam kondisi terbaik, siap menemani waktu membaca kamu.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400" alt="Pelayanan" class="rounded-lg mb-4 mx-auto">
+        <h3 class="text-xl font-semibold mb-2">Pelayanan Cepat</h3>
+        <p>Proses pemesanan mudah dan pengiriman cepat langsung ke depan rumahmu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni Section -->
+  <section id="testimoni" class="bg-softTeal py-16 text-center px-6">
+    <h2 class="text-3xl font-bold mb-10">Apa Kata Mereka?</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+        <p class="italic">“Papyrus bikin aku semangat baca lagi. Bukunya bagus dan pengirimannya cepat banget!”</p>
+        <h4 class="font-semibold mt-4">— Alya</h4>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+        <p class="italic">“Desain websitenya lucu banget, warna-warnanya lembut dan calming.”</p>
+        <h4 class="font-semibold mt-4">— Danu</h4>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+        <p class="italic">“Buku-buku yang dijual bener-bener variatif, dari fiksi sampai pengembangan diri.”</p>
+        <h4 class="font-semibold mt-4">— Azis</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-softBlue py-6 text-center">
+    <p class="mb-2 font-semibold">Ikuti Kami</p>
+    <div class="space-x-4 mb-3">
+      <a href="#" class="hover:text-white transition">Instagram</a>
+      <a href="#" class="hover:text-white transition">Twitter</a>
+      <a href="#" class="hover:text-white transition">Facebook</a>
+    </div>
+    <p class="text-sm">&copy; 2025 Papyrus. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
